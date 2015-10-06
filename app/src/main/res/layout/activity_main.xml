@@ -14,69 +14,58 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="200sp"
-        android:layout_height="wrap_content"
+        style="@style/CustomButton"
         android:text="@string/media_streamer"
-        android:id="@+id/button"
+        android:id="@+id/mediaStreamer"
         android:layout_marginTop="30dp"
         android:layout_below="@+id/my_title"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:background="@drawable/button_custom"
+        android:layout_alignLeft="@+id/scoresApp"
+        android:layout_alignStart="@+id/scoresApp"
         android:onClick="mediaStreamer" />
 
     <Button
-        android:layout_width="200sp"
-        android:layout_height="wrap_content"
+        style="@style/CustomButton"
         android:text="@string/super_duo1"
-        android:id="@+id/button2"
+        android:id="@+id/scoresApp"
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/mediaStreamer"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_custom"
         android:onClick="scoresApp" />
 
     <Button
-        android:layout_width="200sp"
-        android:layout_height="wrap_content"
+        style="@style/CustomButton"
         android:text="@string/super_duo2"
-        android:id="@+id/button3"
+        android:id="@+id/libraryApp"
         android:layout_marginTop="19dp"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/scoresApp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_custom"
         android:onClick="libraryApp" />
 
     <Button
-        android:layout_width="200sp"
-        android:layout_height="wrap_content"
+        style="@style/CustomButton"
         android:text="@string/ant_terminator"
-        android:id="@+id/button4"
+        android:id="@+id/buildItBigger"
         android:layout_marginTop="19dp"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:background="@drawable/button_custom"
+        android:layout_below="@+id/libraryApp"
+        android:layout_alignLeft="@+id/libraryApp"
+        android:layout_alignStart="@+id/libraryApp"
         android:onClick="buildItBigger" />
 
     <Button
-        android:layout_width="200sp"
-        android:layout_height="wrap_content"
+        style="@style/CustomButton"
         android:text="@string/materialize"
-        android:id="@+id/button5"
+        android:id="@+id/baconReader"
         android:layout_marginTop="22dp"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/buildItBigger"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_custom"
         android:onClick="baconReader" />
 
     <Button
-        android:layout_width="200sp"
-        android:layout_height="wrap_content"
+        style="@style/CustomButton"
         android:text="@string/capstone"
-        android:id="@+id/button6"
+        android:id="@+id/capstone"
         android:layout_marginTop="22dp"
-        android:layout_below="@+id/button5"
+        android:layout_below="@+id/baconReader"
         android:layout_centerHorizontal="true"
         android:background="@drawable/capstone_custom"
         android:onClick="capstone" />
